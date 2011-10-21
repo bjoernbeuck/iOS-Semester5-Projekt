@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A08AE35D1451B8920069F49D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A08AE35C1451B8920069F49D /* UIKit.framework */; };
+		A08AE35F1451B8920069F49D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A08AE35E1451B8920069F49D /* Foundation.framework */; };
+		A08AE3611451B8920069F49D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A08AE3601451B8920069F49D /* CoreGraphics.framework */; };
+		A08AE3631451B8920069F49D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A08AE3621451B8920069F49D /* CoreData.framework */; };
+		A08AE3691451B8920069F49D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A08AE3671451B8920069F49D /* InfoPlist.strings */; };
+		A08AE36C1451B8920069F49D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A08AE36B1451B8920069F49D /* main.m */; };
+		A08AE36F1451B8920069F49D /* weightTrackerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A08AE36E1451B8920069F49D /* weightTrackerAppDelegate.m */; };
+		A08AE3721451B8920069F49D /* weightTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A08AE3701451B8920069F49D /* weightTracker.xcdatamodeld */; };
+		A08AE3751451B8920069F49D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A08AE3731451B8920069F49D /* MainWindow.xib */; };
+		A08AE3781451B8920069F49D /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A08AE3771451B8920069F49D /* RootViewController.m */; };
+		A08AE37B1451B8920069F49D /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A08AE3791451B8920069F49D /* RootViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A08AE3581451B8920069F49D /* weightTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weightTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A08AE35C1451B8920069F49D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A08AE35E1451B8920069F49D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A08AE3601451B8920069F49D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A08AE3621451B8920069F49D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A08AE3661451B8920069F49D /* weightTracker-Info.plist */ = {isa = PBXFileReference; path = "weightTracker-Info.plist"; sourceTree = "<group>"; };
+		A08AE3681451B8920069F49D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A08AE36A1451B8920069F49D /* weightTracker-Prefix.pch */ = {isa = PBXFileReference; path = "weightTracker-Prefix.pch"; sourceTree = "<group>"; };
+		A08AE36B1451B8920069F49D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A08AE36D1451B8920069F49D /* weightTrackerAppDelegate.h */ = {isa = PBXFileReference; path = weightTrackerAppDelegate.h; sourceTree = "<group>"; };
+		A08AE36E1451B8920069F49D /* weightTrackerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weightTrackerAppDelegate.m; sourceTree = "<group>"; };
+		A08AE3711451B8920069F49D /* weightTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = weightTracker.xcdatamodel; sourceTree = "<group>"; };
+		A08AE3741451B8920069F49D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		A08AE3761451B8920069F49D /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		A08AE3771451B8920069F49D /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		A08AE37A1451B8920069F49D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A08AE3551451B8920069F49D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A08AE35D1451B8920069F49D /* UIKit.framework in Frameworks */,
+				A08AE35F1451B8920069F49D /* Foundation.framework in Frameworks */,
+				A08AE3611451B8920069F49D /* CoreGraphics.framework in Frameworks */,
+				A08AE3631451B8920069F49D /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A08AE34D1451B8920069F49D = {
+			isa = PBXGroup;
+			children = (
+				A08AE3641451B8920069F49D /* weightTracker */,
+				A08AE35B1451B8920069F49D /* Frameworks */,
+				A08AE3591451B8920069F49D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A08AE3591451B8920069F49D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A08AE3581451B8920069F49D /* weightTracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A08AE35B1451B8920069F49D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A08AE35C1451B8920069F49D /* UIKit.framework */,
+				A08AE35E1451B8920069F49D /* Foundation.framework */,
+				A08AE3601451B8920069F49D /* CoreGraphics.framework */,
+				A08AE3621451B8920069F49D /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A08AE3641451B8920069F49D /* weightTracker */ = {
+			isa = PBXGroup;
+			children = (
+				A08AE36D1451B8920069F49D /* weightTrackerAppDelegate.h */,
+				A08AE36E1451B8920069F49D /* weightTrackerAppDelegate.m */,
+				A08AE3731451B8920069F49D /* MainWindow.xib */,
+				A08AE3761451B8920069F49D /* RootViewController.h */,
+				A08AE3771451B8920069F49D /* RootViewController.m */,
+				A08AE3791451B8920069F49D /* RootViewController.xib */,
+				A08AE3701451B8920069F49D /* weightTracker.xcdatamodeld */,
+				A08AE3651451B8920069F49D /* Supporting Files */,
+			);
+			path = weightTracker;
+			sourceTree = "<group>";
+		};
+		A08AE3651451B8920069F49D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A08AE3661451B8920069F49D /* weightTracker-Info.plist */,
+				A08AE3671451B8920069F49D /* InfoPlist.strings */,
+				A08AE36A1451B8920069F49D /* weightTracker-Prefix.pch */,
+				A08AE36B1451B8920069F49D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A08AE3571451B8920069F49D /* weightTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A08AE37E1451B8920069F49D /* Build configuration list for PBXNativeTarget "weightTracker" */;
+			buildPhases = (
+				A08AE3541451B8920069F49D /* Sources */,
+				A08AE3551451B8920069F49D /* Frameworks */,
+				A08AE3561451B8920069F49D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = weightTracker;
+			productName = weightTracker;
+			productReference = A08AE3581451B8920069F49D /* weightTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A08AE34F1451B8920069F49D /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = A08AE3521451B8920069F49D /* Build configuration list for PBXProject "weightTracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A08AE34D1451B8920069F49D;
+			productRefGroup = A08AE3591451B8920069F49D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A08AE3571451B8920069F49D /* weightTracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A08AE3561451B8920069F49D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A08AE3691451B8920069F49D /* InfoPlist.strings in Resources */,
+				A08AE3751451B8920069F49D /* MainWindow.xib in Resources */,
+				A08AE37B1451B8920069F49D /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A08AE3541451B8920069F49D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A08AE36C1451B8920069F49D /* main.m in Sources */,
+				A08AE36F1451B8920069F49D /* weightTrackerAppDelegate.m in Sources */,
+				A08AE3721451B8920069F49D /* weightTracker.xcdatamodeld in Sources */,
+				A08AE3781451B8920069F49D /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A08AE3671451B8920069F49D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A08AE3681451B8920069F49D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A08AE3731451B8920069F49D /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A08AE3741451B8920069F49D /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		A08AE3791451B8920069F49D /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A08AE37A1451B8920069F49D /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A08AE37C1451B8920069F49D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A08AE37D1451B8920069F49D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		A08AE37F1451B8920069F49D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "weightTracker/weightTracker-Prefix.pch";
+				INFOPLIST_FILE = "weightTracker/weightTracker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A08AE3801451B8920069F49D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "weightTracker/weightTracker-Prefix.pch";
+				INFOPLIST_FILE = "weightTracker/weightTracker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A08AE3521451B8920069F49D /* Build configuration list for PBXProject "weightTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A08AE37C1451B8920069F49D /* Debug */,
+				A08AE37D1451B8920069F49D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A08AE37E1451B8920069F49D /* Build configuration list for PBXNativeTarget "weightTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A08AE37F1451B8920069F49D /* Debug */,
+				A08AE3801451B8920069F49D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A08AE3701451B8920069F49D /* weightTracker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A08AE3711451B8920069F49D /* weightTracker.xcdatamodel */,
+			);
+			currentVersion = A08AE3711451B8920069F49D /* weightTracker.xcdatamodel */;
+			path = weightTracker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A08AE34F1451B8920069F49D /* Project object */;
+}
